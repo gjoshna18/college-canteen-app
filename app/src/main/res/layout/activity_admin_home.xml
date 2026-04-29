@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    tools:context=".admin_home">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="540dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/action_settings"
+        android:cropToPadding="false"
+        android:filterTouchesWhenObscured="false"
+        android:fitsSystemWindows="false"
+        android:foreground="@drawable/view_orders"
+        app:srcCompat="@drawable/update_menu" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="120dp"
+        android:contentDescription="@string/action_settings"
+        android:cropToPadding="false"
+        android:filterTouchesWhenObscured="false"
+        android:fitsSystemWindows="false"
+        android:layout_centerHorizontal="true"
+        android:foreground="@drawable/update_menu"
+        app:srcCompat="@drawable/update_menu" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="300dp"
+        android:contentDescription="@string/action_settings"
+        android:cropToPadding="false"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:filterTouchesWhenObscured="false"
+        android:fitsSystemWindows="false"
+        android:foreground="@drawable/e_wallet"
+        app:srcCompat="@drawable/update_menu" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/imageButton2"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:text="UPDATE MENU" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/imageButton3"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:text="UPDATE BALANCE" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageButton"
+        android:layout_centerHorizontal="true"
+        android:text="VIEW ORDERS"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+</RelativeLayout>

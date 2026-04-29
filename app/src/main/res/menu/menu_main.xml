@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.college_canteen.MainActivity">
+    <item
+        android:id="@+id/orderStatus"
+        android:title="Order Status"/>
+    <item
+        android:id="@+id/orderHistroy"
+        android:title="View All orders"/>
+    <item
+        android:id="@+id/cp"
+        android:title="Change password"/>
+    <item
+        android:id="@+id/l"
+        android:title="Logout"/>
+</menu>
